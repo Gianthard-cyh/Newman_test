@@ -1,4 +1,4 @@
-qname: Newman Run
+name: Newman Run
 
 on:
   workflow_dispatch:
