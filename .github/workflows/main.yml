@@ -10,6 +10,6 @@ jobs:
       - uses: actions/checkout@master
       - uses: matt-ball/newman-action@master
         with:
-          apiKey: ${{ secrets.postmanApiKey }}
+          apiKey: ${{ secrets.POSTMANAPIKEY }}
           collection: 8d129ddb-8cdc-4ffd-bd7e-8285f51aab1a
           environment: 12259394-38561492-75cd-41c6-a902-b1a60e4be8bd
