@@ -11,5 +11,5 @@ jobs:
       - uses: matt-ball/newman-action@master
         with:
           apiKey: ${{ secrets.POSTMANAPIKEY }}
-          collection: '8d129ddb-8cdc-4ffd-bd7e-8285f51aab1a'
-          environment: '12259394-38561492-75cd-41c6-a902-b1a60e4be8bd'
+          collection: '12259394-4a93c743-bb8e-40ac-a269-951a0ebbd5a3'
+          environment: 'e407e08d-cef0-44a1-8026-5c549bdb2e8a'
